@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-07-30 - Paper Tracker - arXiv 论文日报</title>
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --text: #212529;
+    --card-bg: #ffffff;
+    --border: #e9ecef;
+    --accent: #2563eb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+  header {
+    text-align: center;
+    padding: 40px 16px 24px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #ffffff;
+  }
+  header h1 { font-size: 22px; }
+  header p { opacity: 0.85; font-size: 13px; margin-top: 4px; }
+  .back-link {
+    display: inline-block;
+    margin: 16px 0;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .paper-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+  .paper-card h3 { font-size: 16px; margin-bottom: 6px; }
+  .paper-card h3 a { color: var(--text); text-decoration: none; }
+  .paper-card h3 a:hover { color: var(--accent); }
+  .paper-card .authors { color: #495057; font-size: 13px; margin-bottom: 6px; }
+  .paper-card .abstract { color: #6c757d; font-size: 13px; line-height: 1.6; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 2px;
+  }
+  footer { text-align: center; padding: 24px; color: #868e96; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>2026-07-30</h1>
+  <p>11 papers from arXiv</p>
+</header>
+<div class="container">
+  <a href="index.html" class="back-link">← Back to history</a>
+  <div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26889v1" target="_blank">StructureGS: Structure-aware Gaussian Splatting for Articulated Object Reconstruction</a></h3>
+  <p class="authors">Gahye Lee, Gyoonseo Kim, Wonjong Jang, Jooeun Son, Seungyong Lee</p>
+  <p class="abstract">Reconstructing articulated objects with multiple movable parts is essential for understanding object structure and enabling physical interaction. However, this reconstruction task poses significant challenges due to the entanglement of geometry, appearance, and motion parameters during optimization. Existing methods rely primarily on photometric supervision, which commonly fails to disentangle the...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.GR</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.RO</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.27154v1" target="_blank">Anatomy Contextualized Adaption of CT Foundation Models</a></h3>
+  <p class="authors">Roshan Kenia, Stephanie L McNamara, William Lotter</p>
+  <p class="abstract">CT vision-language foundation models have demonstrated promising performance across downstream tasks, but are typically trained with whole-volume representations that dilute fine-grained anatomical signals. Fine-grained vision-language pre-training addresses this by aligning anatomy-level visual features with anatomy-specific text, but in doing so discards the global context that whole-volume mode...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.25364v2" target="_blank">Explanation-Bound Tool Execution for AI Agents: Server-Verified Action Claims Without Trusting Model Rationales</a></h3>
+  <p class="authors">Genliang Zhu, Chu Wang</p>
+  <p class="abstract">Tool-using agents expose structured calls but commonly attach free-form rationales. Such rationales are neither authorization nor reliable introspection. We present Explanation-Bound Tool Execution (EBTE), a claim-carrying mediation layer that converts decision-relevant rationale content into typed action claims and checks them against server-held intent, policy, payload, tool, risk, provenance, a...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.SE</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26947v1" target="_blank">Progressive Multimodal Alignment for Continual Instruction Tuning</a></h3>
+  <p class="authors">Duzhen Zhang, Yahan Yu, Qiaoyi Su, Jiahua Dong, Tielin Zhang</p>
+  <p class="abstract">Multimodal Large Language Models (MLLMs) rely on a projector to align visual representations with the language embedding space, making it central to cross-modal understanding. In Multimodal Continual Instruction Tuning (MCIT), however, shifting visual distributions and evolving instruction semantics cause this shared projector to drift, leading to projector-level forgetting, an issue largely overl...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#fff3cd;color:#856404;">ACM MM</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26910v1" target="_blank">CinemaTraj: Composing Atomic Camera Trajectories for 3D Scenes with LLM Agents</a></h3>
+  <p class="authors">Qianru Li, Xuyang Chen, Erkin Türköz, Lu Liu, Xuqin Wang et al.</p>
+  <p class="abstract">Automatically generating cinematically expressive camera trajectories through 3D scenes from natural language descriptions is a challenging task of high practical value, with applications ranging from real-estate advertising to virtual tour creation. Existing methods either lack true 3D spatial awareness by relying on 2D image priors, or treat trajectory generation as a geometric path planning pro...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26885v1" target="_blank">SCALPEL: Semantic Cross-modal Alignment via LLM-Powered Encoder Learning for Medical Vision-Language Representation</a></h3>
+  <p class="authors">Yunzhan Fu, Enyu Bao, Xiangyu Shen, Yihao Wu, Chunbo Jiang et al.</p>
+  <p class="abstract">Vision-language pre-training (VLP) serves as a cornerstone for medical multimodal representation learning. However, existing medical VLP frameworks are often constrained by the limited context windows and shallow representational capacities of lightweight text encoders when processing lengthy, terminology-dense clinical reports. While integrating medical large language models (LLMs) offers unprece...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26848v1" target="_blank">ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures</a></h3>
+  <p class="authors">Fahad Ahmed, Sören Auer, Jennifer D'Souza</p>
+  <p class="abstract">Scientific figure comprehension and reasoning using multimodal AI requires integrating visual perception with domain-specific reasoning to extract meaningful knowledge, often not presented in the text of a research publication. The Sci-ImageMiner benchmark dataset, accompanied by a community-driven competition, raises the bar over prior scientific competitions by curating a comprehensive, expert-a...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26832v1" target="_blank">Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB</a></h3>
+  <p class="authors">Finn Hertsch</p>
+  <p class="abstract">Algorithmic news personalization in regional markets often fails because modern deep learning models require massive interaction data while real-world news has a short Time-to-Live (TTL < 48 h) and shallow article pools. This structural item cold-start deprives collaborative filtering of the data needed for robust modeling. This paper presents Project Kairos, a framework that bridges this data sca...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.IR</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.25570v2" target="_blank">The LAIA Dataset: Labelled Attention for Intelligent Automobiles</a></h3>
+  <p class="authors">A. Contreras, D. Porres, R. Abad, P. Cano, A. Levy et al.</p>
+  <p class="abstract">The development of autonomous vehicles (AVs) usually relies heavily on data-driven artificial intelligence (AI) models that require large volumes of sensor data with ground-truth annotations. While modular architectures are widely used, end-to-end driving paradigms offer a promising alternative by directly mapping sensor inputs to control actions. However, their adoption is limited by challenges i...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.SE</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26754v1" target="_blank">StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation</a></h3>
+  <p class="authors">Zijun Lin, Zeqing Wang, Cheston Tan, Bihan Wen, Yeying Jin</p>
+  <p class="abstract">Recent game world models can generate visually realistic and interactive environments conditioned on player actions. However, games are not defined by pixels alone; they are governed by explicit mechanics, namely state-dependent rules that control health reduction, skill activation, and game termination. These mechanics depend on precise internal states, such as health points, skill meters, and ti...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2607.26735v1" target="_blank">Dual Inversion for Text-to-Image Diffusion Models: From Both Prompt and Noise Perspectives</a></h3>
+  <p class="authors">Xiaolong Liu, Junjian Li, Yuan Xiao, Jiaqi Deng, Dayong Ye et al.</p>
+  <p class="abstract">Prompt inversion, as a typical reverse engineering technique, enables text-to-image (T2I) diffusion models to generate the desired target images without extensive prompt engineering. However, existing prompt inversion methods suffer from significant limitations: (1) gradient-based methods are unstable and uninterpretable, often resulting in generated images with severe artifacts; (2) gradient-free...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.MM</span><span class="badge" style="background:#fff3cd;color:#856404;">ACM MM</span></div>
+</div>
+</div>
+<footer>Generated by Paper Tracker</footer>
+</body>
+</html>
