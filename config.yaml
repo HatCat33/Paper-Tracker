@@ -130,7 +130,7 @@ llm_summary:
 
 # --- 邮件推送 ---
 email:
-  enabled: True  # 默认关闭，需用户配置 SMTP
+  enabled: False  # 默认关闭，需用户配置 SMTP
   subject_prefix: "[arXiv Daily]"
   smtp_server: "smtp.qq.com"
   smtp_port: 465
