@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-08-11 - Paper Tracker - arXiv 论文日报</title>
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --text: #212529;
+    --card-bg: #ffffff;
+    --border: #e9ecef;
+    --accent: #2563eb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+  header {
+    text-align: center;
+    padding: 40px 16px 24px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #ffffff;
+  }
+  header h1 { font-size: 22px; }
+  header p { opacity: 0.85; font-size: 13px; margin-top: 4px; }
+  .back-link {
+    display: inline-block;
+    margin: 16px 0;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .paper-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+  .paper-card h3 { font-size: 16px; margin-bottom: 6px; }
+  .paper-card h3 a { color: var(--text); text-decoration: none; }
+  .paper-card h3 a:hover { color: var(--accent); }
+  .paper-card .authors { color: #495057; font-size: 13px; margin-bottom: 6px; }
+  .paper-card .abstract { color: #6c757d; font-size: 13px; line-height: 1.6; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 2px;
+  }
+  footer { text-align: center; padding: 24px; color: #868e96; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>2026-08-11</h1>
+  <p>12 papers from arXiv</p>
+</header>
+<div class="container">
+  <a href="index.html" class="back-link">← Back to history</a>
+  <div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09691v1" target="_blank">Diffuse the object, keep its label: curating detector training data from a few unlabeled photographs via VLM-built 3D vegetation scenes</a></h3>
+  <p class="authors">Mario Malizia, Marnix Enting, Rob Haelterman, Ken Hasselmann</p>
+  <p class="abstract">Labeled images of small objects hidden in vegetation are scarce, and detectors trained on them generalize poorly across sites. Rather than reusing labels collected at another site, we synthesize labeled training images from a handful of unlabeled photographs of the deployment site itself. A vision--language model generates a coarse 3D vegetation scene from one photograph; placing 3D object meshes ...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09748v1" target="_blank">Defining Decentralization: An Ontological Perspective</a></h3>
+  <p class="authors">Jakub Kacper Szeląg, Aydin Abadi, Mohammad Naseri</p>
+  <p class="abstract">Decentralization as a concept in computer science has existed for over half a century. Despite its fundamental role across domains such as security, distributed computing, artificial intelligence, cloud infrastructures, and Internet of Things (IoT) architectures, there remains no universally accepted definition of decentralization applicable across computer communication systems. This has become i...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.DC</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09613v1" target="_blank">Marrying Optimal Transport and ODEs for Unified Continuous-Time 4D Reconstruction and Tracking</a></h3>
+  <p class="authors">Liying Yang, Hao Mo, Jialun Liu, Chen Liu, Xinxing Yu et al.</p>
+  <p class="abstract">Existing unified 4D reconstruction and point tracking approaches typically rely on heuristic interpolations or just predict at integer timestamps, lacking kinematic coherence and failing to model dynamics at any arbitrary timestamp. In this paper, we propose Uni4R, a framework that unifies these tasks by learning continuous velocity fields through the synergy of Optimal Transport (OT) and Ordinary...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09774v1" target="_blank">C$^2$A: Coupling Spatial Evidence with Clinical Priors via Co-occurrence Aware Class Attention for Multi-Label Chest X-Ray Classification</a></h3>
+  <p class="authors">Akash Gogineni, Nagur Shareef Shaik, Aasrith Mandava, Adnan Masood, Dong Hye Ye</p>
+  <p class="abstract">Thoracic pathologies rarely occur in isolation, yet standard multi-label classifiers rely on shared global descriptors, discarding \emph{where} findings lie and \emph{how} they co-occur. We propose \textbf{C$\mathbf{^2}$A} (Co-occurrence Aware Class Attention), a classification head that explicitly couples spatial evidence with clinical priors. First, C$^2$A casts pooling as an expectation over le...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">eess.IV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09636v1" target="_blank">NeuroRefiner: Morphology-Aware Multi-Agent Refinement for 3D Fluorescence Microscopy Neuron Segmentation</a></h3>
+  <p class="authors">Haiyang Yan, Jinyue Guo, Yanchao Zhang, Bingqing Wang, Zhenchen Li et al.</p>
+  <p class="abstract">Accurate 3D neuron segmentation in fluorescence microscopy is critical for neuroscience. However, the sparse and elongated morphology of neurons poses significant challenges to existing segmentation methods. These methods struggle to preserve both local details and global topology, leading to fragmented results. To address this, we propose NeuroRefiner, a multi-agent system that formalizes the hum...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09628v1" target="_blank">Satellite Trajectory Optimization via Proximal Policy Optimization for Space Debris Avoidance</a></h3>
+  <p class="authors">Logan Luna, Juan Ortiz Couder, Raul Alejandro Vargas-Acosta</p>
+  <p class="abstract">Collision avoidance systems are commonly used to avoid fragmentation events occurring in Low-Earth Orbit (LEO) and Geosynchronous Equatorial Orbit (GEO). However, these events have been growing in frequency as orbital congestion worsens with the launch of megaconstellations. Consequently, conjunction alerts and collision risks are becoming increasingly common. Current practices, which are commonly...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.RO</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09572v1" target="_blank">Hyperbolic Multimodal Continual Learning</a></h3>
+  <p class="authors">Jiahong Liu, Ming Shen, Xiaohao Liu, Rex Ying, Menglin Yang et al.</p>
+  <p class="abstract">Hyperbolic geometry has recently emerged as a powerful representation space for multimodal learning, as it naturally captures hierarchical semantic structure across modalities. Despite this progress, how such representations behave under continual learning poses fundamentally different challenges that remain underexplored. This work provides a geometric perspective on this problem and establishes ...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#fff3cd;color:#856404;">ICML</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09532v1" target="_blank">Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries</a></h3>
+  <p class="authors">Matthew Russo, Yash Agarwal, Tianyu Li, Zhuohan Gu, Michael Cafarella et al.</p>
+  <p class="abstract">Enterprises increasingly seek to query data lakes using natural language via AI-driven tools like semantic operators or deep research agents. However, the latter operates as an opaque black box, hiding its intermediate reasoning and data retrieval steps, and failing to expose controls for managing API costs and execution latency. Meanwhile, the former can be prohibitively expensive for enterprise-...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.DB</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09519v1" target="_blank">XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher</a></h3>
+  <p class="authors">Lazar Đoković, Aimee Lin</p>
+  <p class="abstract">We present a reproducibility study of XFeat, a lightweight local feature extractor and matcher designed to identify corresponding points across images efficiently on resource-constrained hardware. We re-implement the architecture based on the paper and supplementary material, re-evaluate the authors' released checkpoint alongside our re-implementation, and conduct additional architectural ablation...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09497v1" target="_blank">SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping</a></h3>
+  <p class="authors">Thomas Lauber, Mehmet Ozgur Turkoglu, Sélène Ledain, Helge Aasen</p>
+  <p class="abstract">Operational crop mapping requires models that generalise across years, resolve fine-grained crop taxonomies, and distinguish cropland from surrounding landscapes. However, existing crop mapping datasets enable evaluation of these requirements only in isolation. We therefore introduce SwissCrop25, a national-scale crop mapping benchmark dataset spanning seven growing seasons (2019-2025). SwissCrop2...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09485v1" target="_blank">Capability Is Not Propensity: Measuring Pressure-Robust Cooperative Behavior in Civic LLM Agents</a></h3>
+  <p class="authors">Neel Tushar Shah, Manglam Kartik, Akshat Karkar</p>
+  <p class="abstract">Cooperative capabilities in language models are dual-use. The same social reasoning that supports civic deliberation can also enable strategic omission, false consensus, and manipulative framing. We argue that Cooperative AI evaluations should separate what models can do under benign instructions from what they tend to do under realistic civic pressure. We introduce DiffCoop-Civic, a 10-scenario p...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#fff3cd;color:#856404;">ICML</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.09474v1" target="_blank">FaLCon: Facet-Anchored Retrieval with Late Consensus for Sim2Real Text-Based Person Anomaly Search</a></h3>
+  <p class="authors">Hieu Dinh Trung Pham, Phuong Huu Vu Tran, Thuan Duc Mai, Son Nguyen Minh Le, Khang Le Minh et al.</p>
+  <p class="abstract">Text-based person anomaly search requires retrieving real-world pedestrian images from detailed natural-language descriptions using models trained primarily on synthetic data. This Sim2Real setting is particularly challenging because visually similar candidates may differ only in subtle actions, object interactions, or appearance attributes, while applying multimodal large language models to the e...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+</div>
+<footer>Generated by Paper Tracker</footer>
+</body>
+</html>
