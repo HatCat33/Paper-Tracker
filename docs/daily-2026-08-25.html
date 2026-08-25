@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-08-25 - Paper Tracker - arXiv 论文日报</title>
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --text: #212529;
+    --card-bg: #ffffff;
+    --border: #e9ecef;
+    --accent: #2563eb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+  header {
+    text-align: center;
+    padding: 40px 16px 24px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #ffffff;
+  }
+  header h1 { font-size: 22px; }
+  header p { opacity: 0.85; font-size: 13px; margin-top: 4px; }
+  .back-link {
+    display: inline-block;
+    margin: 16px 0;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .paper-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+  .paper-card h3 { font-size: 16px; margin-bottom: 6px; }
+  .paper-card h3 a { color: var(--text); text-decoration: none; }
+  .paper-card h3 a:hover { color: var(--accent); }
+  .paper-card .authors { color: #495057; font-size: 13px; margin-bottom: 6px; }
+  .paper-card .abstract { color: #6c757d; font-size: 13px; line-height: 1.6; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 2px;
+  }
+  footer { text-align: center; padding: 24px; color: #868e96; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>2026-08-25</h1>
+  <p>13 papers from arXiv</p>
+</header>
+<div class="container">
+  <a href="index.html" class="back-link">← Back to history</a>
+  <div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23549v1" target="_blank">FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors</a></h3>
+  <p class="authors">Khiem Vuong, Deva Ramanan, Srinivasa Narasimhan</p>
+  <p class="abstract">Rendering views using 3D scene representations such as Gaussian Splatting (3DGS), Neural Radiance Fields (NeRF), meshes, or even point clouds produces artifacts when input views are sparse or target views lie far from the input. Recent work mitigates these artifacts using diffusion-based generative priors, but is specialized to individual representations and require custom architectures or extensi...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23507v1" target="_blank">When Names Cross Scripts: A Source-Grounded Benchmark for Historical Entity Reconciliation in the Mongol World</a></h3>
+  <p class="authors">Xiang Chen, Zeyu Zhang</p>
+  <p class="abstract">Historical people may appear under different languages, scripts, and transcription traditions, while distinct individuals may share highly similar or even identical names. This makes historical identity reconciliation more than a problem of string matching or transliteration. We introduce MHER, a provenance-controlled benchmark for pairwise reconciliation of person-name attestations from the Mongo...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CL</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23318v1" target="_blank">Agent-G$^2$: Gaussian Guidance for Agentic Reinforcement Learning</a></h3>
+  <p class="authors">Zixuan Wang, Yanrui Miao, Zhengxi Lu, Teng Pan, Yiwen Qiu et al.</p>
+  <p class="abstract">Hint-based reinforcement learning addresses reward sparsity in long-horizon agentic tasks by retaining a prefix of an expert trajectory before each rollout, letting the policy explore from a state closer to success. Its effectiveness hinges on the guidance depth: how much of the trajectory to keep. Existing methods treat this depth as a deterministic scalar. Scheduled approaches share one value ac...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CL</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23503v1" target="_blank">Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search</a></h3>
+  <p class="authors">Thanh-Khoi Nguyen, Thanh-Nhan Vo, Trong-Thuan Nguyen, Minh-Triet Tran</p>
+  <p class="abstract">Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to capture these context-conditioned actions, frequently relying on isolated skeletal geometry, discarding raw query details during reformulation, or utilizing absolute pointwise scoring for multimodal verification. To addres...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23478v1" target="_blank">Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models</a></h3>
+  <p class="authors">Sangoh Lee, Sangwoo Mo, Wook-Shin Han</p>
+  <p class="abstract">Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning. This supervises which motor command was demonstrated while leaving implicit the local objective served by the behavior under the instruction. Future-based supervision enriches action learning with frames, latent observations, trajectories, or ...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.RO</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23458v1" target="_blank">Traceable Spectral Inference via Influence Functions: Efficient Data Attribution and Error Proxies for the Ariel Mission</a></h3>
+  <p class="authors">Nikki Grens, Luís F. Simões, Kai Hou Yip, Theresa Lueftinger</p>
+  <p class="abstract">Interpretability is critical for machine learning models deployed in scientific space missions such as ESA's Ariel, where ground truth is unavailable during operations and physical plausibility must be assessed. While most explainable AI methods focus on feature attribution, this work investigates training data attribution through influence functions and introduces three key contributions for oper...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">astro-ph.IM</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">stat.ML</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23317v1" target="_blank">Spicing up Genetic Netlist Generation with LLMs</a></h3>
+  <p class="authors">Stefan Uhlich, Yağız Gençer, Andrea Bonetti, Arun Venkitaraman, Chia-Yu Hsieh et al.</p>
+  <p class="abstract">Analog circuit topology synthesis remains challenging because useful designs occupy a tiny fraction of a combinatorial search space, and small structural changes can induce highly nonlinear changes in behavior. Evolutionary algorithms are attractive because they can optimize over discrete circuit topologies using only black-box evaluations, but they often require many SPICE simulations and may con...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.NE</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AR</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#fff3cd;color:#856404;">CAD</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23296v1" target="_blank">Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction</a></h3>
+  <p class="authors"> Isaac,  Li</p>
+  <p class="abstract">Learned KV-cache eviction often faces a soft-to-hard mismatch: during training, differentiable gates typically attenuate token contributions, whereas inference saves memory only when KV entries are physically removed. We ask whether the attention substrate affects this soft-to-hard transition. Using GPT-2-scale Transformers trained on OpenWebText, we run a controlled $2\times2\times2$ comparison o...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#fff3cd;color:#856404;">ICML</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23173v1" target="_blank">BenthicFlow: Generating Extensible Underwater Environments via Flow Matching</a></h3>
+  <p class="authors">Joaquín Figueira, Camile Lendering, Manfred Gonzalez-Hernandez, Giacomo D'Amicantonio, Erkut Akdag et al.</p>
+  <p class="abstract">Computer vision applications for 3D scene understanding in underwater environments remain challenging due to the lack of high-quality 3D data and the inability of surface-trained models to generalize to underwater scenes. To address this challenge, an emerging trend is to employ generative models to close the data domain gap. However, existing methods assemble large scenes by stitching independent...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23142v1" target="_blank">How Merge-Tolerant Are Vision Transformers for Wheat Phenotyping?</a></h3>
+  <p class="authors">Simon Ravé, Pejman Rasti, David Rousseau</p>
+  <p class="abstract">Vision-based wheat phenotyping requires repeated measurements under deployment constraints, from growth-stage recognition to wheat-head counting and organ segmentation. Plain Vision Transformers (ViTs) provide a common architecture for these tasks, but quadratic attention limits high-throughput and edge inference. Training-free token merging is attractive because it can be inserted into trained mo...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">ECCV</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23094v1" target="_blank">One Inverse Step is a Convex Program: Bayes-Limit Calibration of Diffusion Inversion</a></h3>
+  <p class="authors">Gordei Verbii</p>
+  <p class="abstract">One implicit DDIM inversion step is the cheapest probe of whether a pretrained diffusion model encodes local manifold geometry. It is the stationarity condition of an explicit potential, $x-G(x)=\nablaΨ_t(x)$, strongly convex at the Bayes limit with modulus exactly $e^{-h_t}$ for the step's log-SNR gap $h_t$ $-$ for every data law, schedule and point, with no manifold, reach or unimodality hypothe...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">stat.ML</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.LG</span><span class="badge" style="background:#fff3cd;color:#856404;">ICML</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23090v1" target="_blank">Loopy: Seamless Video Loop Generation via Anchored Looping Shift of Positional Embedding</a></h3>
+  <p class="authors">Haotian Dong, Wenjing Wang, Chen Li, Jing Lyu, Xin Wang et al.</p>
+  <p class="abstract">Looping videos are essential for practical applications such as web graphics, game development, and social media. However, existing approaches typically fail to generate high-quality looping videos due to the neglect of how video generation models perceive temporal order and how this relates to the looping behavior. In this work, we are the first to reveal that position embedding at different atte...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CV</span><span class="badge" style="background:#fff3cd;color:#856404;">TOG</span></div>
+</div>
+<div class="paper-card">
+  <h3><a href="http://arxiv.org/abs/2608.23078v1" target="_blank">AgentWeave: Routing Before Reasoning for Efficient Function Calling in Tool-Rich Language Models</a></h3>
+  <p class="authors">Saurav Singla, Aarav Singla, Advik Gupta, Parnika Gupta</p>
+  <p class="abstract">Large language models increasingly operate over large collections of tools, functions, APIs, and specialized agents. As the candidate action space grows, a function-calling model must process more schemas, consume more prompt tokens, and distinguish among increasingly similar or irrelevant alternatives. We study a complementary systems strategy: reduce the candidate set before language-model infer...</p>
+  <div style="margin-top:8px;"><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.AI</span><span class="badge" style="background:#e8f4f8;color:#0c6787;">cs.CL</span><span class="badge" style="background:#fff3cd;color:#856404;">PR</span></div>
+</div>
+</div>
+<footer>Generated by Paper Tracker</footer>
+</body>
+</html>
